@@ -1,0 +1,15 @@
+app-sidemenu {
+    position: relative;
+    display: inline-block;
+    top: 80px;
+    width: 25%;
+    vertical-align: top;
+}
+
+app-main {
+    position: relative;
+    display: inline-block;
+    top: 80px;
+    width: 74%;
+    vertical-align: top;
+}

@@ -1,0 +1,32 @@
+#searchFrm {
+    margin: 10px;
+    padding: 11px 0 11px 16px;
+    border-radius: 4px;
+    background: rgba(120,120,120,0.1);
+    color: #767676;
+    vertical-align: middle;
+}
+
+#searchFrm button {
+    width: 10%;
+    color: #767676;
+    font-size: 14px;
+    text-align: left;
+}
+
+#searchFrm input[type="text"] {
+    background: none;
+    border: 0;
+    font-size: 16px;
+}
+
+#searchFrm button, #searchFrm input[type="text"]{
+    line-height: 24px;
+}
+
+#searchFrm input[type="text"]::-webkit-input-placeholder { color: #767676; }
+#searchFrm input[type="text"]::-moz-placeholder { color: #767676; }
+#searchFrm input[type="text"]::-moz-placeholder { color: #767676; }
+
+
+

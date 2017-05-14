@@ -1,0 +1,24 @@
+.nav li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+.nav>li:first-child { width: 5% }
+.nav>li:nth-child(2) { width: 12% }
+.nav>li:nth-child(3) { width: 50% }
+.nav>li:nth-child(4) { width: 10% }
+.nav>li:nth-child(5) { width: 20%; text-align: right; }
+
+.fa-lg { font-size: 1.6em }
+
+.brand { 
+    color: #000;
+    font-size: 22px; }
+
+.rotate { 
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}

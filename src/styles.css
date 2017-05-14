@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+body {
+    min-width: 360px;
+    margin: 0;
+    padding: 0;
+    background: #e8e8e8;
+    color: #767676;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+ol, ul {
+    list-style-type: none;
+}
+
+button {
+    background: none;
+    border: 0;
+    padding: 0;
+    color: #4e4e4e;
+}
+
+button, a, input[type="button"], input[type="submit"] {
+    cursor: pointer;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 8px;
+}
+
+.yellow {
+    background: #ffbb00;
+}
+
+
