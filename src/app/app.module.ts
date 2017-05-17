@@ -4,12 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { SearchFormComponent } from './search-form/search-form.component';
-import { SidemenuComponent } from './sidemenu/sidemenu.component';
-import { MainComponent } from './main/main.component';
-import { OptionsComponent } from './options/options.component';
-import { NotesComponent } from './notes/notes.component';
+import { HeaderComponent } from './components/header/header.component';
+import { SearchFormComponent } from './components/search-form/search-form.component';
+import { SidemenuComponent } from './components/sidemenu/sidemenu.component';
+import { MainComponent } from './components/main/main.component';
+import { OptionsComponent } from './components/options/options.component';
+import { NotesComponent } from './components/notes/notes.component';
 
 @NgModule({
   declarations: [
