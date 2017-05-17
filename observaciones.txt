@@ -1,0 +1,5 @@
+Notas: 16 Mayo
+1. Cambiar nombre a main por notes-component.ts
+2. Cambiar nombre a notes-component.ts por note-component.ts
+3. Agregar fontAwesone con npm.
+
