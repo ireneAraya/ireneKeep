@@ -1,6 +1,6 @@
 div {
+    position: relative;
     float: left;
-    display: inline-block;
     width: 31%;
     margin: 9px;
 
