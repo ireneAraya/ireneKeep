@@ -1,15 +1,23 @@
-app-sidemenu {
+app-header {
     position: relative;
-    display: inline-block;
-    top: 80px;
-    width: 25%;
-    vertical-align: top;
+    display: block;
+    z-index: 3;
 }
 
 app-main {
     position: relative;
     display: inline-block;
-    top: 80px;
     width: 74%;
     vertical-align: top;
+    z-index: 0;
+}
+
+app-sidemenu {
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    background-color: #fff;
+    vertical-align: top;
+    z-index: 0;
 }

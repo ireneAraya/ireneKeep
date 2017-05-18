@@ -1,3 +1,14 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 8px;
+}
+
+.yellow {
+    background: #ffbb00;
+}
+
 .nav li {
     position: relative;
     display: inline-block;
@@ -5,41 +16,11 @@
     padding-left: 20px;
 }
 
-.nav>li:first-child { width: 5% }
-.nav>li:nth-child(2) { width: 12% }
-.nav>li:nth-child(3) { width: 50% }
-.nav>li:nth-child(4) { width: 10% }
-.nav>li:nth-child(5) { width: 20%; text-align: right; }
-
-.fa-lg { font-size: 1.6em }
+.fa-lg { 
+    font-size: 1.6em 
+}
 
 .brand { 
     color: #000;
-    font-size: 22px; }
-
-.rotate { 
-    -ms-transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
-@media (max-width: 1024px) {
-    .nav>li:nth-child(2) { width: 14% }
-    .nav>li:nth-child(3) { width: 46% }
-}
-
-@media (max-width: 768px) {
-    .nav>li:nth-child(2) { width: 17% }
-    .nav>li:nth-child(3) { width: 40% }
-    .nav>li:nth-child(4) { width: 13% }
-    .nav>li:nth-child(5) { width: 22% }
-}
-
-@media (max-width: 768px) {
-    .nav li { padding-left: 0 }
-    .nav>li:nth-child(2) { width: 8% }
-    .nav>li:nth-child(2) { width: 90% }
-    .nav>li:nth-child(3) { width: 100% }
-    .nav>li:nth-child(4) { width: 50% }
-    .nav>li:nth-child(5) { width: 48% }
+    font-size: 22px; 
 }

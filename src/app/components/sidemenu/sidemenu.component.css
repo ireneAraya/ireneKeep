@@ -1,43 +1,10 @@
-#sidenav ul {
-    padding: 10px 0;
+nav {
+    top: 0;
+    width: 100%;
+    height: 800px;
+    padding: 20px 8px;
 }
 
-#sidenav ul:not(:first-child) {
-    border-top: 1px solid #ddd; 
+.white {
+    background: #fff;
 }
-
-#sidenav ul li {
-    position: relative;
-    padding: 0 20px;
-    line-height: 52px;
-    vertical-align: middle;
-}
-
-#sidenav ul li:hover, #sidenav ul li#edit button:hover {
-    background: rgba(0,0,0,.03);
-}
-
-#sidenav ul li button {
-    font-size: 12px;
-    font-weight: 500;
-}
-
-#sidenav ul li i {
-    width: 65px;
-    padding-right: 32px;
-    font-size: 1.6em;
-    text-align: center;
-}
-
-#sidenav ul li#edit:hover {
-    background: none;
-}
-
-#sidenav ul li#edit button {
-    padding: 10px;
-    border-radius: 4px;
-    position: absolute;
-    right: 0;
-    top: 8px;
-}
-
