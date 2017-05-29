@@ -10,6 +10,7 @@ import { SidemenuComponent } from './components/sidemenu/sidemenu.component';
 import { MainComponent } from './components/main/main.component';
 import { OptionsComponent } from './components/options/options.component';
 import { NotesComponent } from './components/notes/notes.component';
+import { NoteComponent } from './components/note/note.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NotesComponent } from './components/notes/notes.component';
     SidemenuComponent,
     MainComponent,
     OptionsComponent,
-    NotesComponent
+    NotesComponent,
+    NoteComponent
   ],
   imports: [
     BrowserModule,
